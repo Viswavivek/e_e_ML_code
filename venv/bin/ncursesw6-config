@@ -36,7 +36,7 @@ LANGUAGE=C;	export LANGUAGE
 LC_ALL=C;	export LC_ALL
 LC_CTYPE=C;	export LC_CTYPE
 
-prefix="/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/venv"
+prefix="/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/e_e_ML_code/venv"
 exec_prefix="${prefix}"
 
 bindir="${exec_prefix}/bin"
@@ -101,7 +101,7 @@ fi
 # There is no portable way to find the list of standard library directories.
 # Require a POSIX shell anyway, to keep this simple.
 lib_flags=
-for opt in -L$libdir -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/venv/lib -L/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/venv/lib -Wl,-search_paths_first  $LIBS
+for opt in -L$libdir -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/e_e_ML_code/venv/lib -L/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/e_e_ML_code/venv/lib -Wl,-search_paths_first  $LIBS
 do
 	case $opt in
 	-specs*) # ignore linker specs-files which were used to build library
@@ -280,10 +280,10 @@ ENDECHO
 		echo "${mandir}"
 		;;
 	--terminfo)
-		echo "/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/venv/share/terminfo"
+		echo "/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/e_e_ML_code/venv/share/terminfo"
 		;;
 	--terminfo-dirs)
-		echo "/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/venv/share/terminfo"
+		echo "/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/e_e_ML_code/venv/share/terminfo"
 		;;
 	--termpath)
 		echo "/etc/termcap:/usr/share/misc/termcap"

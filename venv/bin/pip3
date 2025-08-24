@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/venv/bin/python3.13" "$0" "$@" #'''
+'''exec' "/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/e_e_ML_code/venv/bin/python3.12" "$0" "$@" #'''
 # -*- coding: utf-8 -*-
 import re
 import sys
