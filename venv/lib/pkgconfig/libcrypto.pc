@@ -1,0 +1,13 @@
+prefix=/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+enginesdir=${libdir}/engines-3
+modulesdir=${libdir}/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.0.17
+Libs: -L${libdir} -lcrypto
+Libs.private:  
+Cflags: -I${includedir}

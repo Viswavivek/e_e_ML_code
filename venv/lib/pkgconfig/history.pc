@@ -1,0 +1,11 @@
+prefix=/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: History
+Description: Gnu History library for managing previously-entered lines
+URL: http://tiswww.cwru.edu/php/chet/readline/rltop.html
+Version: 8.3
+Libs: -L${libdir} -lhistory
+Cflags: -I${includedir}

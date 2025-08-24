@@ -1,0 +1,13 @@
+prefix=/Users/viswavivektupakula/Library/CloudStorage/OneDrive-Personal(2)/Visula_Path_DS_ML_DA_Jan 2025/Corporate/ML_E2E/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: expat
+Version: 2.7.1
+Description: expat XML parser
+URL: https://libexpat.github.io/
+Libs: -L${libdir} -lexpat
+Libs.private: 
+Cflags: -I${includedir}
+Cflags.private: -DXML_STATIC
