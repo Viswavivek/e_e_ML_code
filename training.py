@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error, accuracy_score
 from utils import save_model
 
 def training_page():
-    st.title("Model Training")
+    st.title("Model Training for session")
 
     # Problem type
     problem_type = st.selectbox("Problem Type", ["Regression", "Classification"])
